@@ -1,0 +1,81 @@
+body,h1,h2,h3,p{
+
+	body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-image: url('a1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        
+       
+        nav {
+            background-color: #FAAF00;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        
+        }
+        .banner {
+            background-color: #e0e0e0;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .banner h1 {
+            font-size: 48px;
+            color: #FE8606;
+        }
+        .content {
+            padding: 20px;
+        }
+        .social-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .social-links a:hover {
+            background-color: #4CAF50;
+        }
+        .map {
+            text-align: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
